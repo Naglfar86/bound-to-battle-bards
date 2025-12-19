@@ -1,7 +1,7 @@
 {
   "id": "bound-to-battle-bards",
   "title": "Bound to Battle: Bards",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
@@ -115,4 +115,5 @@
   "url": "https://www.pathfinderinfinite.com/en/product/546903/bound-to-battle-bards?affiliate_id=3634203",
   "manifest": "https://github.com/Naglfar86/bound-to-battle-bards/releases/latest/download/module.json",
   "download": "https://github.com/Naglfar86/bound-to-battle-bards/releases/latest/download/module.zip"
+
 }
