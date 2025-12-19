@@ -1,0 +1,118 @@
+{
+  "id": "bound-to-battle-bards",
+  "title": "Bound to Battle: Bards",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Ruben \"Lyon\" Salazar",
+      "discord": "lyon_naglfar",
+      "flags": {}
+    },
+    {
+      "name": "Raul \"Valor\" Padilla",
+      "discord": "valor_bard",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "bob-bards-player-options",
+      "label": "Player Options",
+      "banner": "modules/bound-to-battle-bards/assets/banners/banner1.webp",
+      "path": "packs/player-options",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bob-bards-others",
+      "label": "Others",
+      "banner": "modules/bound-to-battle-bards/assets/banners/banner2.webp",
+      "path": "packs/others",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bob-bards-journal",
+      "label": "Journal",
+      "banner": "modules/bound-to-battle-bards/assets/banners/banner3.webp",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/bound-to-battle-bards/assets/setup.webp"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Bound to Battle",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Bards",
+          "sorting": "m",
+          "packs": [
+            "bob-bards-player-options",
+            "bob-bards-others",
+            "bob-bards-journal"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "bound-to-battle-bards": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "overture": {
+            "label": "Overture",
+            "description": "These are actions that you use to begin your martial performances as you set the stage of your battle. You cannot take an action with the overture trait if you have already casted a spell with the composition trait on the same turn, and vice versa. After you use an action with the Overture trait, you can’t do so again until you take an action with the encore trait."
+          },
+          "encore": {
+            "label": "Encore",
+            "description": "An action with the Encore trait signifies that your action will leave you ready for a repeat performance. When you take an action with this trait, you prepare yourself for your next opener, allowing you to take actions with the Overture trait again. Actions with the Encore trait also get the concentrate trait."
+          }
+        },
+        "spellTraits": {
+          "encore": {
+            "label": "Encore",
+            "description": "An action with the Encore trait signifies that your action will leave you ready for a repeat performance. When you take an action with this trait, you prepare yourself for your next opener, allowing you to take actions with the Overture trait again. Actions with the Encore trait also get the concentrate trait."
+          }
+        }
+      }
+    }
+  },
+  "url": "https://www.pathfinderinfinite.com/en/product/546903/bound-to-battle-bards?affiliate_id=3634203",
+  "manifest": "https://github.com/Naglfar86/bound-to-battle-bards/releases/latest/download/module.json",
+  "download": "https://github.com/Naglfar86/bound-to-battle-bards/releases/latest/download/module.zip"
+}

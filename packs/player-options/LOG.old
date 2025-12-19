@@ -1,0 +1,9 @@
+2025/12/18-17:01:17.629 3cb4 Recovering log #1797
+2025/12/18-17:01:17.631 3cb4 Level-0 table #1799: started
+2025/12/18-17:01:17.645 3cb4 Level-0 table #1799: 560029 bytes OK
+2025/12/18-17:01:17.649 3cb4 Delete type=0 #1797
+2025/12/18-17:01:17.649 3cb4 Delete type=3 #1796
+2025/12/18-18:51:09.160 2398 Compacting 1@0 + 1@1 files
+2025/12/18-18:51:09.165 2398 Generated table #1801@0: 146 keys, 182331 bytes
+2025/12/18-18:51:09.165 2398 Compacted 1@0 + 1@1 files => 182331 bytes
+2025/12/18-18:51:09.166 2398 compacted to: files[ 0 1 0 0 0 0 0 ]
